@@ -202,15 +202,11 @@ a {
 
 .my-information {
   max-width: 700px;
+  height: auto;
   margin: 0 auto;
   text-align: center;
   position: relative;
   bottom: 50px;
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .about-my-page {
