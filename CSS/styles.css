@@ -116,7 +116,7 @@ a {
 
   .grid_item {
     background-color: lightgray;
-    padding-right: 15px 20px;
+    padding-right: 15px;
   }
 
   @media all and (max-width: 500px) {
