@@ -299,4 +299,27 @@ a {
   animation-timing-function: linear;
 }
 
+.contact-form {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #f76416;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.expert {
+  text-align: center;
+}
+
 
