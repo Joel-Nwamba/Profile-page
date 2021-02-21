@@ -472,6 +472,12 @@ a {
   text-align: center;
 }
 
+/* start grid fallback */
+.grid_item {
+  display: inline-block;
+  width: 33%;
+ }
+
 @supports (display: grid) {
   .grid {
     display: -ms-grid;
