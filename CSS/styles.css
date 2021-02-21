@@ -337,11 +337,6 @@ a {
     grid-gap: 0px;
     margin: 0;
   }
- /* start grid fallback */
-.grid_item {
-  display: inline-block;
-  width: 33%;
- }
   .grid_item:last-child {
     grid-column: 3 / 3;
     grid-row: 1/3; 
