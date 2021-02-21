@@ -481,15 +481,11 @@ a {
     grid-gap: 0px;
     margin: 0;
   }
-  .grid_item {
-    background-color: #d4d4d4;
-    width: auto;
-    min-height: auto;
-    margin: 1em;
-    border: 2px solid #f76414;
-    padding: 1em;
-    text-align: center;
-  }
+ /* start grid fallback */
+.grid_item {
+  display: inline-block;
+  width: 33%;
+ }
   .grid_item:last-child {
     -ms-grid-column: 3;
     grid-column: 3 / 3;
