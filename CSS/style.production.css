@@ -369,41 +369,6 @@ a {
           animation-timing-function: linear;
 }
 
-@-webkit-keyframes expandable {
-  from {
-    -webkit-transform: scale(0,0);
-            transform: scale(0,0);
-  }
-  to {
-    -webkit-transform: scale(0,1);
-            transform: scale(0,1);
-  }
-}
-
-@keyframes expandable {
-  from {
-    -webkit-transform: scale(0,0);
-            transform: scale(0,0);
-  }
-  to {
-    -webkit-transform: scale(0,1);
-            transform: scale(0,1);
-  }
-}
-
-.expand {
-  -webkit-animation-duration: 30s;
-          animation-duration: 30s;
-  -webkit-animation-name: expandable;
-          animation-name: expandable;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear; 
-}
-
 @-webkit-keyframes rocketship {
   from {
     -webkit-transform: translate(446px,50px);

@@ -272,23 +272,6 @@ a {
   animation-timing-function: linear;
 }
 
-@keyframes expandable {
-  from {
-    transform: scale(0,0);
-  }
-  to {
-    transform: scale(0,1);
-  }
-}
-
-.expand {
-  animation-duration: 30s;
-  animation-name: expandable;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear; 
-}
-
 @keyframes rocketship {
   from {
     transform: translate(446px,50px);
